@@ -36,8 +36,6 @@ public class Task03 {
             }
         } while (true);
         System.out.println("Minimum number is " + min);
-
         }
-
     }
 

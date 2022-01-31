@@ -34,11 +34,9 @@ public class Task01 {
             if(temperature[i] > temperature[warmMonth]) {
                 warmMonth = i;
             }
-
         }
         System.out.println("Month with the lowest temperature in a year: " + months [coldMonthIndex]);
         System.out.println("Month with the highest temperature in a year: " + months [warmMonth]);
-
     }
 }
 

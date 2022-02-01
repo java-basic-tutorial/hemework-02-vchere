@@ -32,7 +32,22 @@ import java.util.Scanner;
 public class Task02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // TODO: Write your code here
+        System.out.print("temp1 >>> " );
+        double temp1 = scanner.nextDouble();
+        System.out.print("temp2 >>> " );
+        double temp2 = scanner.nextDouble();
+        System.out.print("tempstep >>> " );
+        double tempstep = scanner.nextDouble();
+        System.out.println("-----------------\n" +
+                "C       F\n" +
+                "-----------------  ");
+        double f;
+        while (temp1 <= temp2) {
+            f =9*temp1/5 +32;
+            System.out.printf(Locale.ENGLISH, "%2.2f    %2.2f%n", temp1, f);
+            temp1 +=tempstep;
+        }
+        System.out.println("-----------------");
 
     }
 }
